@@ -25,7 +25,7 @@ This Python script allows users to download YouTube videos.
 
 1. Open Command Prompt.
 2. Navigate to the directory where the script is located using the `cd` command. For example: cd C:\path\to\your\script
-3. Run the script by typing `python main.py` and pressing Enter.
+3. Run the script by typing `python youtube_downloader.py` and pressing Enter.
 4. The script will prompt you to enter the YouTube URL of the video you wish to download.
 5. Next, it will ask for the directory where you want to save the video. You can leave it empty to save in the current directory.
 6. The video will be downloaded.
@@ -36,6 +36,6 @@ This tool is for educational purposes and should only be used for downloading vi
 
 ## Troubleshooting
 
-If you encounter an error stating that Python is not recognized as an internal or external command, this means that Python is not added to your system's PATH. You can either add it to the PATH or specify the full path to the Python executable while running the script, for example: C:\Python39\python.exe main.py
+If you encounter an error stating that Python is not recognized as an internal or external command, this means that Python is not added to your system's PATH. You can either add it to the PATH or specify the full path to the Python executable while running the script, for example: C:\Python39\python.exe youtube_downloader.py
 
 Replace `C:\Python39\` with the actual path where Python is installed on your system.
